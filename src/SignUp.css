@@ -1,0 +1,47 @@
+.logo{
+    width: 150px;
+    display: flex;
+    margin: auto;
+
+}
+
+.fromClass{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group{
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: large;
+    padding: 5px;
+    font-weight: bold;
+}
+
+button{
+    background-color: #39ffde;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin: 0px 60px 0px 60px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.08;
+}

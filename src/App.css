@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+.link{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signIn-signUp-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff3838;
+    align-items: center;
+    margin: 40px 500px 0px 500px;
+    padding: 50px;
+    border-radius: 50px;
+    gap: 10px;
+}
